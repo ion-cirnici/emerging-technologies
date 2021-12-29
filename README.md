@@ -20,10 +20,10 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
       <li><a href="#built-with">Built With</a></li>
-      <li><a href="#getting-started">Getting Started</a></li>
       <li><a href="#installation">Installation</a></li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#usage">Usage</a></li>
+      <li><a href="#getting-started">Getting Started</a></li>    
+      <li><a href="#run">Run</a></li>
+      <li><a href="#license">License</a></li>    
       <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -34,7 +34,7 @@
 ___
 
 
-* This repository contains Jupyter notebooks and other relevant files demonstrating my work on the Python packages `pandas` and `numpy` for the module.
+* This repository contains Jupyter notebooks and other relevant files demonstrating my work on the Python packages `pandas` and `numpy` for the module Emerging Technologies.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -48,6 +48,16 @@ ___
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- INSTALATION -->
+## Installation
+___
+Steps to install...
+1. Install ..
+2. Run Command ..
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 ## Getting Started
 ___
@@ -57,26 +67,49 @@ ___
    git clone https://github.com/ion-cirnici/emerging-technologies
    
    ```
-
+2. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- INSTALATION -->
-## Installation
+<!-- RUN -->
+## Run
 ___
-1. Install
-2. Run Command
-
+Here's how to run the project/notebooks:
+1. Open terminal
+2. Run jupyter with `numpy.ipnb` .
+3. Go to browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- EXPLORE -->
+## Explore
 ___
+Have look at the two notebooks in this repository in Jupyter.
+Some interesting aspects here:
+- The notebook `plots.ipynb` has three different plot types as examples. The parameters of the plots can be edited to be able to see different effects.
 
+- Change the following code and see how the plot changes:
 
+```python
+def f(x):
+  return x * x
+  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CREDITS -->
+## Credits
+___
+### Qiskit
+
+![Qiskit Logo](https://qiskit.org/textbook/assets/images/logo_qiskit_purple_new.svg)
+
+
+I heavely relied on the Qiskit textbook in creating this repository. It can be found here: [Learn Quantum Computation using Qiskit](https://qiskit.org/textbook/preface.html)  
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## License
@@ -90,4 +123,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 ___
 
-Ion Cirnici || G00374920@gmit.ie
+[Ion Cirnici](G00374920@gmit.ie)
