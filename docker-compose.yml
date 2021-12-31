@@ -3,10 +3,9 @@ services:
   web:
     build: . # build current working directory which is Dockerfile
     ports:
-      - "5000:5000"
+      - "8888:8888" # docker container default url 8888
     volumes:
-      - .:/code # the working folder in the image
-    environment:
-      FLASK_ENV: development
-  redis:
-    image: "redis:alpine"
+      - .:/home/jovyan/repo # the working folder in the image
+     environment:
+      JUPYTER_ENABLE_LAB: yes
+      GRANT_SUDO: yes
