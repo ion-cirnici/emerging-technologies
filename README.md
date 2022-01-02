@@ -23,7 +23,8 @@
       <li><a href="#installation">Installation</a></li>
       <li><a href="#getting-started">Getting Started</a></li>    
       <li><a href="#run">Run</a></li>
-      <li><a href="#license">License</a></li>    
+      <li><a href="#license">License</a></li>
+      <li><a href="#references">References</a></li>     
       <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -33,8 +34,15 @@
 ## About The Project
 ___
 
+The purpose of this assessment is to ensure that I have achieved the learning outcomes of the module while also providing me with sample work to show prospective
+employers.
 
 * This repository contains Jupyter notebooks and other relevant files demonstrating my work on the Python packages `pandas` and `numpy` for the module Emerging Technologies.
+
+### Two Notebooks:
+
+
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -52,8 +60,10 @@ ___
 ## Installation
 ___
 Steps to install...
-1. Install ..
-2. Run Command ..
+1. Install [Anaconda](https://www.anaconda.com/products/individual)
+2. Install [Docker](https://www.docker.com/) 
+3. Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install) 
+4. Use any Command Prompt or Install [Cmder](https://cmder.net/) 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -108,6 +118,8 @@ ___
 
 I heavely relied on the Qiskit textbook in creating this repository. It can be found here: [Learn Quantum Computation using Qiskit](https://qiskit.org/textbook/preface.html)  
 
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -116,6 +128,15 @@ I heavely relied on the Qiskit textbook in creating this repository. It can be f
 ___
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- REFERENCES -->
+## References
+___
+https://www.activestate.com/resources/quick-reads/what-is-scikit-learn-in-python/
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
